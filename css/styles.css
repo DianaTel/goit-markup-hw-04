@@ -302,7 +302,7 @@ body {
     color: var(--primary-text-color-dark);
 }
 
-.features-container:before {
+/* .features-container:before {
     content: '';
     display: flex;
 }
@@ -316,7 +316,18 @@ body {
     border-radius: 4px;
     margin-bottom: 8px;
     padding: 24px 100px;
+} */
+
+.features-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background: var(--secondary-text-color-light);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
+
 
 /* ============ we doing ============ */
 
