@@ -201,8 +201,14 @@ letter-spacing: 0.02em;
 .container-content {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+   
+    /* gap: 120px; */
 }
+
+.content {
+    margin-right: 120px;
+}
+
 
 .footer-media {
     font-weight: 500;
@@ -235,7 +241,7 @@ letter-spacing: 0.02em;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-max-width: 1440px;
+/* max-width: 1440px; */
 
 }
 
