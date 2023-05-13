@@ -457,11 +457,12 @@ z-index: 1;
 .customers-title {
     font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 /* text-transform: capitalize; */
 margin-bottom: 72px;
+color: #2e2f42;
 }
 
 .customers-list {
