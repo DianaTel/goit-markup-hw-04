@@ -181,6 +181,23 @@ body {
     margin-bottom: 16px;
 }
 
+.container-content {
+ display: flex;
+}
+
+.content:first-child {
+    margin-right: 120px;
+}
+
+.footer-media {
+    margin-bottom: 16px;
+    color: var(--primary-text-color-light);
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
 /* ======================== index.html ========================*/
 
 /* ============ hero ============ */
@@ -188,6 +205,9 @@ body {
     background-color: var(--secondary-text-color-dark);
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .hero-title {
@@ -223,6 +243,8 @@ body {
     background-color: var(--accent-color-two);
 }
 
+
+
 /* ============ features  ============ */
 
 .section-features {
@@ -255,7 +277,17 @@ body {
     color: var(--primary-text-color-dark);
 }
 
-
+.features-caption:before {
+    content: '';
+    display: inline-block;
+    background-image: url("../images/icons.svg#icon-logo1");
+    
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: #F4F4FD;
+    background-size: cover;
+}
 /* ============ we doing ============ */
 
 .section-works {
@@ -333,6 +365,56 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color-dark);
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+
+/* ============ customers ============ */
+
+.section-customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+/* text-transform: capitalize; */
+margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.customers-list-item {
+    border: 1px solid #8E8F99;
+border-radius: 4px;
+}
+
+.customers-list-icon {
+   margin: 16px 32px;
 }
 
 
