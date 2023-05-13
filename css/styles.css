@@ -491,12 +491,10 @@ body {
 .customers-list-icon:focus {
     border-color: var(--customers-color-two);
     color: var(--customers-color-two);
-    fill: currentColor;
 }
 
 .customers-list-icon {
     margin: 16px 32px;
-    color: var(--customers-color-one);
     fill: currentColor;
 }
 
