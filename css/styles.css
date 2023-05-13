@@ -496,7 +496,8 @@ body {
 
 .customers-list-icon {
     margin: 16px 32px;
-    fill: var(--customers-color-one);
+    color: var(--customers-color-one);
+    fill: currentColor;
 }
 
 /* ======================== portfolio.html ======================== */
